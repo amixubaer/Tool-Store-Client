@@ -1,0 +1,114 @@
+[
+    {
+      "title": "Hammer",
+      "vendor": "CaratLane",
+      "price": 191,
+      "image": "https://ibb.co/4T0VWcn",
+      "rating": 3,
+      "available" : 100
+    },
+    {
+      "title": "Drill Machine",
+      "vendor": "CaratLane",
+      "price": 300,
+      "image": "https://ibb.co/HVHLwFG",
+      "rating": 4,
+      "available" : 200
+    },
+    {
+      "title": "Screw Driver",
+      "vendor": "Tradino",
+      "price": 146,
+      "image": "https://ibb.co/XtrVMSf",
+      "rating": 3,
+      "available" : 120
+    },
+    {
+      "title": "Wrench",
+      "vendor": "CaratLane",
+      "price": 116,
+      "image": "https://ibb.co/GF3Xw8x",
+      "rating": 5,
+      "available" : 110
+    },
+    {
+      "title": "Pliers",
+      "vendor": "CaratLane",
+      "price": 217,
+      "image": "https://ibb.co/fxtJb8C",
+      "rating": 5,
+      "available" : 50
+    },
+    {
+      "title": "Measuring Tapes",
+      "vendor": "Astron",
+      "price": 131,
+      "image": "https://ibb.co/QrbXvkN",
+      "rating": 5,
+      "available" : 78
+    },
+    {
+      "title": "Chisel",
+      "vendor": "Tradino",
+      "price": 341,
+      "image": "https://ibb.co/YP1t5rG",
+      "rating": 3,
+      "available" : 100
+    },
+    {
+      "title": "Shovel",
+      "vendor": "CaratLane",
+      "price": 143,
+      "image": "https://5.imimg.com/data5/ST/RB/MN/SELLER-2474259/bill-hocks-500x500.jpg",
+      "rating": 3,
+      "available" : 200
+    },
+    {
+      "title": "Paint Brush",
+      "vendor": "Tradino",
+      "price": 414,
+      "image": "https://ibb.co/XLscTjF",
+      "rating": 5,
+      "available" : 100
+    },
+    {
+      "title": "Work Bench",
+      "vendor": "Glamr",
+      "price": 805,
+      "image": "https://ibb.co/nrHLjjn",
+      "rating": 3,
+      "available" : 100
+    },
+    {
+      "title": "Electric Saw",
+      "vendor": "Maribel",
+      "price": 835,
+      "image": "https://ibb.co/1dRdnLG",
+      "rating": 3,
+      "available" : 700
+    },
+    {
+      "title": "Nuts",
+      "vendor": "Latika",
+      "price": 10,
+      "image": "https://ibb.co/4YCLDCb",
+      "rating": 5,
+      "available" : 5680
+    },
+    {
+      "title": "Bolt",
+      "vendor": "Nakshi",
+      "price": 9,
+      "image": "https://ibb.co/FqDkSn1",
+      "rating": 5,
+      "available" : 1200
+    },
+    {
+      "title": "Clamp",
+      "vendor": "Nakshi",
+      "price": 51,
+      "image": "https://ibb.co/x1G0xxk",
+      "rating": 5,
+      "available" : 708
+    }
+  ]
