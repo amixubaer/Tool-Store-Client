@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "../../Footer/Footer";
+import Footer from "../../Shared/Footer/Footer";
 import Products from "../../Products/Products";
 import Header from "../../Shared/Header/Header";
 import Category from "../Category/Category";
@@ -12,7 +12,7 @@ const Home = () => {
       <Header />
       <Slider />
       <Category />
-      <Products quantity={8} />
+      <Products quantity={9} />
       <Review />
       <Footer />
     </div>

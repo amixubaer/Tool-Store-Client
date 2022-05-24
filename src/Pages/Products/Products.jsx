@@ -12,10 +12,10 @@ const Products = ({ quantity }) => {
       .then((data) => setProducts(data));
   }, []);
   return (
-    <Container className='my-md-5 my-3 text-center'>
+    <Container className='my-md-5 my-3 text-center '>
       <p className='products-title'>Feature Products</p>
       <img src='https://i.ibb.co/jrcL1wV/divider1.png' alt='' />
-      <Row className='g-5'>
+      <Row className='g-5 d-flex'>
         {products.slice(0, quantity).map((product) => (
           <Product key={product._id} product={product} />
         ))}

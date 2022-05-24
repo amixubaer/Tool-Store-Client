@@ -10,14 +10,14 @@ const Category = () => {
         <Col xs={12} md={6}>
           <div className='category-img mt-3'>
             <img
-              src='https://i.ibb.co/Q92xwP7/home-6-cat-1-1024x10242x2.jpg'
+              src='https://5.imimg.com/data5/HG/KH/MY-14289147/pipe-wrench-500x500.jpg'
               className='img-fluid cat-img'
               alt=''
             />
           </div>
           <div className='category-img mt-3'>
             <img
-              src='https://i.ibb.co/w414p1t/home-6-cat-2-1024x10242x2.jpg'
+              src='https://5.imimg.com/data5/RH/VS/HU/SELLER-3001986/iron-screwdriver-500x500.jpg'
               className='img-fluid cat-img'
               alt=''
             />
@@ -26,14 +26,14 @@ const Category = () => {
         <Col xs={12} md={6}>
           <div className='category-img mt-3'>
             <img
-              src='https://i.ibb.co/G5bWfjy/home-6-cat-3-1024x10242x2.jpg'
+              src='https://5.imimg.com/data5/XN/TU/SP/SELLER-1668175/brass-hammers-500x500.jpg'
               className='img-fluid cat-img'
               alt=''
             />
           </div>
           <div className='category-img mt-3'>
             <img
-              src='https://i.ibb.co/68hvWhC/home-6-cat-4-1024x10242x2.jpg'
+              src='https://4.imimg.com/data4/NS/CY/MY-25074085/drill-machine-500x500.jpg'
               className='img-fluid cat-img'
               alt=''
             />

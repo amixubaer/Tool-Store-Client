@@ -10,7 +10,7 @@ function Slider() {
         <Carousel.Item>
           <img
             className='d-block w-100'
-            src='https://i.ibb.co/zsPV0fq/sider4-2.jpg'
+            src='https://www.business2community.com/wp-content/uploads/2016/07/website-application-softare-testing-tools.jpg'
             alt='First slide'
           />
           <Carousel.Caption>
@@ -26,8 +26,8 @@ function Slider() {
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className='d-block w-80 h-100'
-            src='https://5.imimg.com/data5/ST/RB/MN/SELLER-2474259/bill-hocks-500x500.jpg'
+            className='d-block w-100'
+            src='https://martech.org/wp-content/uploads/2014/08/webmaster-tools-development-ss-1920.jpg'
             alt='Second slide'
           />
 

@@ -10,10 +10,11 @@ const Product = ({ product }) => {
     <Col xs={12} md={4}>
       <Card sx={{ maxWidth: 345 }}>
         <CardActionArea>
-          <CardMedia component='img' image={product.image} alt='jewelry' />
+          <CardMedia component='img' image={product.image} alt='tools' />
           <CardContent>
             <p className='product-title'>{product.title}</p>
             <p className='product-vendor'>{product.vendor}</p>
+            <p className='product-available'>Available: {product.available}</p>
             <Rating name='read-only' value={product.rating} readOnly />
           </CardContent>
         </CardActionArea>
