@@ -18,9 +18,7 @@ const AddReview = () => {
   const [success, setSuccess] = useState(false);
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
-    // setBookUser(data);
-
-    //  if user booking is valid then
+     //  if user data is valid then
     if (!data.Name) {
       return (
         <Spinner className='mx-auto' animation='border' variant='danger' />

@@ -73,7 +73,7 @@ const AddProduct = () => {
               type='text'
               className='form-control'
               id='floatingInput'
-              {...register("img")}
+              {...register("image")}
               required
             />
             <label htmlFor='floatingInput'>Image Link</label>
@@ -102,7 +102,7 @@ const AddProduct = () => {
             <input
               className='btn btn-success px-3'
               type='submit'
-              value='ADD PACKAGE'
+              value='ADD PRODUCT'
             />
           </div>
         </form>

@@ -13,26 +13,13 @@ const Header = () => {
       <Navbar className='' collapseOnSelect expand='lg' variant='light'>
         <Container>
           <Navbar.Brand as={Link} to='/'>
-            <img
-              className='logo'
-              src='https://i.ibb.co/f881qkN/logo.png'
-              alt=''
-            />
+          <h1>ToolSmith</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Collapse className='bg-navbar' id='responsive-navbar-nav'>
             <Nav className='mx-auto nav-bar'>
             <Nav.Link as={Link} to='/products'>
                 EXPLORE PRODUCTS
-              </Nav.Link>
-              <Nav.Link as={Link} to='/destination'>
-                DESTINATION
-              </Nav.Link>
-              <Nav.Link as={Link} to='/contact'>
-                CONTACT US
-              </Nav.Link>
-              <Nav.Link as={Link} to='/about'>
-                ABOUT US
               </Nav.Link>
 
               {/* user login manage menu here */}

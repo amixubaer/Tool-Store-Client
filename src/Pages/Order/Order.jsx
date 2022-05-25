@@ -26,7 +26,7 @@ const Order = () => {
   //   Use form hooks function
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
-    // setBookUser(data);
+  
 
     console.log(data);
     //  if user Order is valid then
@@ -60,7 +60,7 @@ const Order = () => {
   // Send Order post to MONGODB
   return (
     <Container className='my-md-5 my-3'>
-      <div className='order-form mx-auto'>
+      <div className='order-form mx-auto' style={{ maxWidth: "600px" }}>
       <h2 className='regular-title mb-md-5 mb-3'>Complete Your Order</h2>
 
         <Row className='single-product-card g-4 my-4'>

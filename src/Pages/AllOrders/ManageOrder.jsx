@@ -11,7 +11,6 @@ const ManageOrder = ({ order }) => {
 
   // Handle Approved function
   const handleStatus = (id) => {
-    order.status = "shipped";
     const url = `https://powerful-earth-33581.herokuapp.com/orders/${id}`;
     fetch(url, {
       method: "PUT",
@@ -65,7 +64,7 @@ const ManageOrder = ({ order }) => {
             </Col>
             <Col xs={6}>
               <Button variant='contained' onClick={() => handleDelete(_id)}>
-                Delete Now
+                Delete
               </Button>
             </Col>
           </Row>

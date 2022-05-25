@@ -6,6 +6,7 @@ import Review from "../Review/Review";
 import Slider from "../Slider/Slider";
 import { Link } from "react-router-dom";
 import Footer from "../../Shared/Footer/Footer";
+import Trust from "../../Trust/Trust";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
         </Link>
       </div>
       <Review />
+      <Trust />
       <Footer />
     </div>
   );

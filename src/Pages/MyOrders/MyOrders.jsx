@@ -6,13 +6,12 @@ import useAuth from "../../Hooks/useAuth";
 
 const MyOrders = ({ quantity }) => {
   const { user } = useAuth();
-  console.log(user);
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch(`https://powerful-earth-33581.herokuapp.com/orders/?email=${user.email}`)
-      .then((res) => res.json())
+    fetch(`https://powerful-earth-33581.herokuapp.com/orders/${user.email}`)
+    .then((response) => response.json())
       .then((data) => setProducts(data));
-    }, [user.email]);
+    }, [user.email, products]);
   return (
     <Container className='my-md-5 my-3 text-center'>
     {products.length ? (

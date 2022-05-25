@@ -10,7 +10,7 @@ const Products = ({ quantity }) => {
     fetch("https://powerful-earth-33581.herokuapp.com/tool")
       .then((res) => res.json())
       .then((data) => setProducts(data));
-  }, []);
+    }, [products]);
   return (
     <Container className='my-md-5 my-3 text-center '>
       <p className='products-title'>Feature Products</p>

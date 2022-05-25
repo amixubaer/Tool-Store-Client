@@ -11,17 +11,16 @@ function Footer() {
           <Col xs={12} md={3}>
             <p className='footer-title'>ABOUT US</p>
             <p className='footer-text'>
-            We are Travel Industry experts agency that have developed a solution based on World Wide Dynamics Travels, with added travel-specific functionality to support travel agents in their daily tasks and empower their entire team.
+           ToolSmith is the place where you will get ll your desired Tools. The rate is very low and we offer very fast delivery.
             </p>
-            <Link to='/service'>
-              <button className='btn btn-success px-3 mt-md-4'>BROWS PACKAGES</button>
+            <Link to='/products'>
+              <button className='btn btn-success px-3 mt-md-4'>BROWSE PRODUCTS</button>
             </Link>
           </Col>
           <Col xs={12} md={3}>
-            <p className='footer-title'>MEET TRIPAR</p>
+            <p className='footer-title'>MEET ToolSmith</p>
             <div className='footer-list'>
               <Link to='/'>Career</Link>
-              <Link to='/'>About Travel</Link>
               <Link to='/'>FAQ</Link>
               <Link to='/'>Contact us</Link>
               <Link to='/'>Privacy Policy</Link>
@@ -35,11 +34,7 @@ function Footer() {
               <Link to='/'>INCREASE CUSTOMER RETENTION</Link>
               <p>02th Dec 2021</p>
             </p>
-            <hr />
-            <p className='footer-text'>
-              <Link to='/'>Hospitality Managements </Link>
-              <p>03th Dec 2021</p>
-            </p>
+            
             <hr />
             <p className='footer-text'>
               <Link to='/'>Weekdays in South America</Link>
@@ -62,7 +57,7 @@ function Footer() {
             </p>
             <p className='footer-text'>
               <i className='fas fa-globe-asia ico'></i>
-              Website <span className='number'> tripar.com</span>
+              Website <span className='number'> https://toolsmith-60509.web.app/</span>
             </p>
             <p className='footer-direction mx-4'>
               Get Map Direction <i className='fas fa-long-arrow-alt-right ico'></i>

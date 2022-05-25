@@ -33,6 +33,7 @@ import MakeAdmin from "../MakeAdmin/MakeAdmin";
 const drawerWidth = 240;
 
 function Dashboard(props) {
+  // import logout and admin from use Auth
     const { LogOut, admin } = useAuth();
   const { window } = props;
   let { path, url } = useRouteMatch();
@@ -49,6 +50,7 @@ function Dashboard(props) {
       <List>
       {admin ? (
           <>
+          
             <ListItem button key={1}>
               <ListItemIcon>
               </ListItemIcon>
@@ -191,7 +193,7 @@ function Dashboard(props) {
           <Toolbar />
           <Switch>
             <Route exact path={path}>
-              <h3>Please select a product.</h3>
+              <h3>DASHBOARD</h3>
             </Route>
             
             <Route path={`${path}/addreview`}>
