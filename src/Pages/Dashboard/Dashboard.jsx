@@ -10,7 +10,7 @@ import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import MenuIcon from "@mui/icons-material/Menu";
+// import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
@@ -19,11 +19,11 @@ import { useRouteMatch } from "react-router";
 import AddReview from "../AddReview/AddReview";
 import useAuth from "../../Hooks/useAuth";
 import Payment from "../Payment/Payment.jsx";
-import HomeIcon from "@mui/icons-material/Home";
-import CreditCardIcon from "@mui/icons-material/CreditCard";
-import RateReviewIcon from "@mui/icons-material/RateReview";
+// import HomeIcon from '@mui/icons-material/Home';
+// import CreditCardIcon from "@mui/icons-material/CreditCard";
+// import RateReviewIcon from "@mui/icons-material/RateReview";
 // import AdminPanelSettingsIcon from "@mui/icons-material/AdminPanelSettings";
-import {LogoutIcon, AdminPanelSettingsIcon} from "@mui/icons-material";
+// import {LogoutIcon, AdminPanelSettingsIcon} from "@mui/icons-material";
 
 const drawerWidth = 240;
 
@@ -44,7 +44,7 @@ function Dashboard(props) {
       <List>
         <ListItem button key={1}>
           <ListItemIcon>
-            <CreditCardIcon />
+            {/* <CreditCardIcon /> */}
           </ListItemIcon>
           <Link to={`${url}/payment`}>
             <ListItemText primary='Pay Now' />
@@ -52,7 +52,7 @@ function Dashboard(props) {
         </ListItem>
         <ListItem button key={1}>
           <ListItemIcon>
-            <RateReviewIcon />
+            {/* <RateReviewIcon /> */}
           </ListItemIcon>
           <Link to={`${url}/addreview`}>
             <ListItemText primary='Add Review' />
@@ -60,7 +60,7 @@ function Dashboard(props) {
         </ListItem>
         <ListItem button key={1}>
           <ListItemIcon>
-            <AdminPanelSettingsIcon />
+            {/* <AdminPanelSettingsIcon /> */}
           </ListItemIcon>
           <Link to={`${url}/makeAdmin`}>
             <ListItemText primary='Make Admin' />
@@ -68,7 +68,7 @@ function Dashboard(props) {
         </ListItem>
         <ListItem button key={1}>
           <ListItemIcon>
-            <LogoutIcon />
+            {/* <LogoutIcon /> */}
           </ListItemIcon>
           <Link to='/' onClick={LogOut}>
             <ListItemText primary='LOGOUT' />
@@ -98,14 +98,15 @@ function Dashboard(props) {
               edge='start'
               onClick={handleDrawerToggle}
               sx={{ mr: 2, display: { sm: "none" } }}>
-              <MenuIcon />
+              {/* <MenuIcon /> */}
             </IconButton>
             <Typography variant='h5' noWrap component='div'>
               Dashboard
             </Typography>
             <Typography className='mx-auto' variant='h5' noWrap component='div'>
               <Link to='/'>
-                <HomeIcon /> Home
+                {/* <HomeIcon />  */}
+                Home
               </Link>
             </Typography>
           </Toolbar>
