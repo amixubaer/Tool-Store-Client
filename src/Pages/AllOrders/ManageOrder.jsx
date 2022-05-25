@@ -12,7 +12,7 @@ const ManageOrder = ({ order }) => {
   // Handle Approved function
   const handleStatus = (id) => {
     order.status = "shipped";
-    const url = `http://localhost:5000/orders/${id}`;
+    const url = `https://powerful-earth-33581.herokuapp.com/orders/${id}`;
     fetch(url, {
       method: "PUT",
       headers: {
@@ -26,7 +26,7 @@ const ManageOrder = ({ order }) => {
   const handleDelete = (id) => {
     const procced = window.confirm("Are you sure you want to Delete ?");
     if (procced) {
-      fetch(`http://localhost:5000/orders/${id}`, {
+      fetch(`https://powerful-earth-33581.herokuapp.com/orders/${id}`, {
         method: "DELETE",
       })
         .then((response) => response.json())
