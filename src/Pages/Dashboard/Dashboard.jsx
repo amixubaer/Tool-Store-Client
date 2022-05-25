@@ -26,6 +26,9 @@ import Payment from "../Payment/Payment.jsx";
 // import LogoutIcon from "@mui/icons-material/Logout";
 import MyOrders from "../MyOrders/MyOrders";
 import AddProduct from "../AddProduct/AddProduct";
+import AllOrders from "../AllOrders/AllOrders";
+import ManageProducts from "../ManageProducts/ManageProducts";
+
 const drawerWidth = 240;
 
 function Dashboard(props) {
@@ -53,7 +56,23 @@ function Dashboard(props) {
         </ListItem>
         <ListItem button key={1}>
           <ListItemIcon>
-            {/* <RateReviewIcon /> */}
+          {/* <ShoppingCartIcon /> */}
+          </ListItemIcon>
+          <Link to={`${url}/orders`}>
+            <ListItemText primary='Manage All Order' />
+          </Link>
+        </ListItem>
+        <ListItem button key={1}>
+          <ListItemIcon>
+            {/* <ShoppingCartIcon /> */}
+          </ListItemIcon>
+          <Link to={`${url}/manageproducts`}>
+            <ListItemText primary='Manage All Products' />
+          </Link>
+        </ListItem>
+        <ListItem button key={1}>
+          <ListItemIcon>
+            {/* <ShoppingCartIcon /> */}
           </ListItemIcon>
           <Link to={`${url}/addreview`}>
             <ListItemText primary='Add Review' />
@@ -70,7 +89,7 @@ function Dashboard(props) {
     
         <ListItem button key={1}>
           <ListItemIcon>
-            {/* <AdminPanelSettingsIcon /> */}
+            {/*   <AddShoppingCartIcon /> */}
           </ListItemIcon>
           <Link to={`${url}/makeAdmin`}>
             <ListItemText primary='Make Admin' />
@@ -179,6 +198,12 @@ function Dashboard(props) {
             </Route>
             <Route path={`${path}/myorder`}>
               <MyOrders />
+              <Route path={`${path}/orders`}>
+              <AllOrders />
+            </Route>
+            <Route path={`${path}/manageproducts`}>
+              <ManageProducts />
+            </Route>
             </Route>
             <Route path={`${path}/addproduct`}>
               <AddProduct />

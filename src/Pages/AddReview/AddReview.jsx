@@ -27,8 +27,12 @@ const AddReview = () => {
       );
     } else {
       data.rating = rating;
-      data.img = user.photoURL;
-      console.log(data);
+      if (user.photoURL) {
+        data.img = user.photoURL;
+      } else {
+        data.img =
+          "https://i.ibb.co/ZJPQfBr/115-1150152-default-profile-picture-avatar-png-green.jpg";
+      }
       //   fetch the post API
       fetch("https://powerful-earth-33581.herokuapp.com/review", {
         method: "POST",

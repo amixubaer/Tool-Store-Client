@@ -23,7 +23,7 @@ const AddProduct = () => {
     } else {
       data.rating = rating;
       //   fetch the post API
-      fetch("http://localhost:5000/tool", {
+      fetch("https://powerful-earth-33581.herokuapp.com/tool", {
         method: "POST",
         headers: {
           "content-type": "application/json",

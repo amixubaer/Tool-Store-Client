@@ -48,30 +48,35 @@ const Header = () => {
                 <NavDropdown
                   eventKey={1}
                   title={
-                      <img
-                      className='profile-img'
-                        src={user.photoURL}
-                        alt='user pic'
-                        onError={(e) => {
-                          e.target.onerror = false;
-                          e.target.src =
-                            "https://www.linkpicture.com/q/download_86.png";
-                        }}
-                      />
+                    user.photoURL ? (
+                        <img
+                        className='profile-img'
+                          src={user.photoURL}
+                          alt='user pic'
+                          />
+                        ) : (
+                          <img
+                            src='https://i.ibb.co/ZJPQfBr/115-1150152-default-profile-picture-avatar-png-green.jpg'
+                            className='profile-img' alt=''
+                        />
+                        )
                     }
                     id='basic-nav-dropdown'>
                     <div className='dashboard-box mx-auto'>
                       <div className='profile-info text-center'>
-                        <img
-                          src={user.photoURL}
-                          alt=''
-                          className='profile-info-img'
-                          onError={(e) => {
-                            e.target.onerror = false;
-                            e.target.src =
-                              "https://www.linkpicture.com/q/download_86.png";
-                          }}
-                        />
+                        {user.photoURL ? (
+                          <img
+                            src={user.photoURL}
+                            alt=''
+                            className='profile-info-img'
+                          />
+                        ) : (
+                          <img
+                            src='https://i.ibb.co/ZJPQfBr/115-1150152-default-profile-picture-avatar-png-green.jpg'
+                            alt=''
+                            className='profile-info-img'
+                          />
+                        )}
                       <p className='regular-subtitle mt-2'>
                           {user.displayName}
                         </p>
@@ -83,23 +88,7 @@ const Header = () => {
                         </div>
                       <hr />
                       <div className='profile-info-body'>
-                        <p>
-                          <Link to='/mybooking'>
-                            <i className='fas hico fa-bookmark'></i> My Booking
-                          </Link>
-                        </p>
-                        <p>
-                          <Link to='/allbooking'>
-                            <i className='fas hico fa-bookmark'></i> Manage All
-                            Booking
-                          </Link>
-                        </p>
-                        <p>
-                          <Link to='/addpackage'>
-                            <i className='fas hico fa-bookmark'></i> Add New
-                            Package
-                          </Link>
-                        </p>
+                      
                         <p>
                           <Link to='/' onClick={LogOut}>
                             <i className='fas hico fa-sign-out-alt'></i> Logout
