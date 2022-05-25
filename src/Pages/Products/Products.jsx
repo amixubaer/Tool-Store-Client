@@ -7,7 +7,7 @@ import Product from "./Product";
 const Products = ({ quantity }) => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("product.json")
+    fetch("https://powerful-earth-33581.herokuapp.com/tool")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
