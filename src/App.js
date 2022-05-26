@@ -8,12 +8,15 @@ import Home from "./Pages/Homepage/Home/Home";
 import Login from "./Pages/Login/Login";
 import Registration from "./Pages/Registration/Registration";
 import Header from "./Pages/Shared/Header/Header";
+import Profile from "./Pages/Profile/Profile";
 import NotFound from "./Pages/NotFound/NotFound";
 import Footer from "./Pages/Shared/Footer/Footer";
 import Products from "./Pages/Products/Products";
 import PrivateRoute from "./Pages/Login/PrivateRoute";
 import Order from "./Pages/Order/Order";
 import Dashboard from "./Pages/Dashboard/Dashboard";
+import Portfolio from "./Pages/Others/Portfolio/Portfolio";
+import Blog from "./Pages/Others/Blog/Blog";
 
 function App() {
   return (
@@ -37,11 +40,20 @@ function App() {
             <Route exact path='/login'>
               <Login />
             </Route>
+            <Route exact path='/profile'>
+              <Profile />
+            </Route>
             <Route exact path='/registration'>
               <Registration />
             </Route>
             <Route exact path='/products'>
               <Products />
+            </Route>
+            <Route exact path='/blog'>
+              <Blog />
+            </Route>
+            <Route exact path='/portfolio'>
+              <Portfolio />
             </Route>
             <PrivateRoute path="/product/:id">
               <Order></Order>

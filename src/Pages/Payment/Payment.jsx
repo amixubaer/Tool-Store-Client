@@ -9,7 +9,8 @@ const Payment = () => {
           className='img-fluid'
           alt=''
         />
-        <h3>Payment System Comming Soon...</h3>
+        <h3>Make Your Payment</h3>
+        
       </div>
     </div>
   );

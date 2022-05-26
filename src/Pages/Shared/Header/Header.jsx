@@ -22,6 +22,14 @@ const Header = () => {
                 EXPLORE PRODUCTS
               </Nav.Link>
 
+              <Nav.Link as={Link} to='/blog'>
+                Blog
+              </Nav.Link>
+
+              <Nav.Link as={Link} to='/portfolio'>
+                Portfolio
+              </Nav.Link>
+
               {/* user login manage menu here */}
               {!user.email ? (
                 <Nav.Link as={Link} to='/login'>
