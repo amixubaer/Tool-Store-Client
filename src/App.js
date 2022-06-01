@@ -15,7 +15,6 @@ import Products from "./Pages/Products/Products";
 import PrivateRoute from "./Pages/Login/PrivateRoute";
 import Order from "./Pages/Order/Order";
 import Dashboard from "./Pages/Dashboard/Dashboard";
-import Portfolio from "./Pages/Others/Portfolio/Portfolio";
 import Blog from "./Pages/Others/Blog/Blog";
 
 function App() {
@@ -51,9 +50,6 @@ function App() {
             </Route>
             <Route exact path='/blog'>
               <Blog />
-            </Route>
-            <Route exact path='/portfolio'>
-              <Portfolio />
             </Route>
             <PrivateRoute path="/product/:id">
               <Order></Order>
